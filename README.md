@@ -9,6 +9,6 @@ tesla configuration
 * /{label}/{application}-{profile}.properties  
 ```
   application 根据spring.config.name来获得
-  profile 激活的剖面，比如spring.profiles.active = test
+  profile 激活的环境，比如spring.profiles.active = test
   label git资源的label 默认是master
 ```
